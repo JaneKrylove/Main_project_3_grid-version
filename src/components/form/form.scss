@@ -1,0 +1,32 @@
+.form {
+  max-width: 334px;
+}
+
+.form__field {
+  width: 100%;
+  border: 1px solid #FFF;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+}
+
+.form__field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+.form__field::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+.form__field::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+.form__field::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}   

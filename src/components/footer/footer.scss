@@ -1,0 +1,41 @@
+.footer {
+  background-color: $PrimaryBlue100;
+  color: #fff;
+  
+  &__container {
+	padding: 80px 0px;
+	padding-bottom: 40px;
+  }
+
+  &__top {
+    display: flex;
+	justify-content: space-between;
+	margin-bottom: 105px;
+  }
+
+  &__title {
+	width: 530px;
+	height: 190px;
+	font-size: 32px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 120%;
+  }
+  
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    & .logo {
+      color: #fff;
+    }
+  }
+
+  &__tel {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 40px;
+  }
+}
+

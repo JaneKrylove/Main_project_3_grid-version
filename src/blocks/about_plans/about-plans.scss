@@ -1,0 +1,54 @@
+.about-plans {
+  margin-top: 112px;
+} 
+
+.description {
+  display: flex;
+  justify-content: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 100px; 
+}
+
+.variants {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-row: 585px;
+  //  grid-auto-rows: minmax(200px, auto);
+   column-gap: 30px;
+   row-gap: 35px;
+  
+}
+
+.variant { 
+    &__img {
+               
+    }
+   
+    &__name {
+        display: block;        
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; 
+        text-transform: uppercase;
+        margin-top: 31px;
+    }
+
+    &__text {
+        display: block;        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; 
+        margin-top: 11px;
+        margin-bottom: 53px;
+    }
+       
+}
+
+.image__main {
+    margin-top: 153px;
+}

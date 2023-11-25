@@ -1,0 +1,31 @@
+.parametrs {
+  background: $PrimaryBlue100;
+  max-width: 252px;
+  position: absolute;
+  color: #fff;
+  padding: 45px 51px 60px 56px;
+  right: 181px;
+  top: 297px;
+  margin-right: 341px;
+
+  & :last-child {
+    margin-bottom: 0;
+  }
+
+  &__item {
+    text-align: center;
+    margin-bottom: 63px;
+  }
+
+  &__value {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}

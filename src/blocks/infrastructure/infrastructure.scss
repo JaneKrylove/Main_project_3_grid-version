@@ -1,0 +1,96 @@
+.infrastructure {
+  margin-top: 112px;
+}
+
+.benefits {
+    display:flex;
+    &__left {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 8px;
+      column-gap: 8px;
+    }
+    &__right {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 8px;
+      column-gap: 8px;
+    }
+    &__benefit--1 {
+      grid-column: span 2; 
+    }      
+  }
+
+
+  
+  //   justify-content: space-between;
+  //   flex-wrap: wrap;
+  //   width: 49.8%;
+  // }
+
+  // &__sub-section-right {
+  //   width: 49.7%;
+  // }
+  // &__sub-section-left {
+  //   width: 49.7%;
+  // }
+
+
+// .benefit {
+//   width: 300px;
+//   height: 300px;
+//   overflow: hidden;
+
+//   &--sm {
+//     height: 300px;
+//   }
+
+  // &--nm {
+  //   height: 300px;
+  // }
+
+  // &--lg {
+  //   max-height: 607px;
+  //   height: 100%;
+  // }
+
+  // &--w50 {
+  //   width: 49.5%;
+  // }
+
+  // &--w100 {
+  //   width: 100%;
+  // }
+
+  // &--mb7 {
+  
+  //   margin-bottom: 0.5%;
+  // }
+
+  // &__text {
+  // }
+
+  // &__img {
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  // }
+
+
+/* 
+
+лефт
+1. горизонт блок на 100%
+2. дети ниже по 50
+
+правый
+1.разбиваем секцию на 50 и 50
+2.в левую вставляем длинный блок
+3. правые на 100 упадут другл под друга
+
+вывод:
+когда макет будет сжиматься, то лефт и правый через медиа будут 100%
+
+не забывайте про отступы: это можнолл сделать допустим уменьшив ширину
+
+*/

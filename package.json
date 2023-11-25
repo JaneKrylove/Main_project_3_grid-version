@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-include": "^2.4.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
